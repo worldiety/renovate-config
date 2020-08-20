@@ -1,0 +1,10 @@
+{
+  "description": "Merge minor patches automatically.",
+  "packageRules": [
+    {
+      "updateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    }
+  ],
+  "dependencyDashboard": true
+}
